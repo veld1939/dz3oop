@@ -7,6 +7,7 @@ public class Animal {
     protected List<String> illness;
     protected List<String> vaccinations;
     protected String owner;
+    protected String type;
 
     public Animal(String name, LocalDate birthDate, List<String> vaccinations, List<String> illness, String owner) {
         this.name = name;
@@ -57,11 +58,11 @@ public class Animal {
     protected void fly(){
         System.out.println("Animal fly");
     }
-    protected void swim(){
+    protected double swim(){
         System.out.println("Animal swim");
+        return 0;
     }
-    public void skills(){
-    }
+
 
 
 
