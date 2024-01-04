@@ -25,7 +25,6 @@ public class Main {
         List<Animal> animals = new ArrayList<>();
         animals.add(barsic);
         animals.add(dog);
-        System.out.println("---------------------------");
         duck.fly();
         fox.fly();
 
